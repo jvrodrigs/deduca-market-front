@@ -1,0 +1,28 @@
+<div class="list">
+  <ng-template ngFor let-products [ngForOf]="products">
+    <a class="products">
+      <div class="product-container">
+        <section class="product-info">
+          <div class="title">
+            <h2>Produto 1</h2>
+          </div>
+          <div class="content">
+            Este é o conteúdo do produto 1
+          </div>
+        </section>
+        <section class="product-car">
+          <button mat-raised-button color="primary">R$ 1200</button>
+          <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>dialpad</mat-icon>
+              <span>Redial</span>
+            </button>
+          </mat-menu>
+        </section>
+      </div>
+  </a>
+  </ng-template>
+</div>

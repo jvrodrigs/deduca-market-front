@@ -1,0 +1,39 @@
+.container{
+  padding: 0 400px 0 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 900px;
+}
+
+#image-undraw{
+  width: 828px;
+  height: 700px;
+}
+
+.page-list-product{
+  background-color: #E8E8E8;
+  width: auto;
+  height: 983px;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.info-body{
+  color: #000000;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.info-header{
+  color: #0099d9;
+}
